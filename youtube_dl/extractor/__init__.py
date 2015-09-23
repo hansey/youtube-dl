@@ -138,7 +138,6 @@ from .dump import DumpIE
 from .dumpert import DumpertIE
 from .defense import DefenseGouvFrIE
 from .discovery import DiscoveryIE
-from .divxstage import DivxStageIE
 from .dropbox import DropboxIE
 from .eagleplatform import EaglePlatformIE
 from .ebaumsworld import EbaumsWorldIE
@@ -405,7 +404,11 @@ from .normalboots import NormalbootsIE
 from .nosvideo import NosVideoIE
 from .nova import NovaIE
 from .novamov import NovaMovIE
-from .nowness import NownessIE
+from .nowness import (
+    NownessIE,
+    NownessPlaylistIE,
+    NownessSeriesIE,
+)
 from .nowtv import NowTVIE
 from .nowvideo import NowVideoIE
 from .npo import (
